@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      JAVASCRIPT 4.1
+    </title>
+  </head>
+
+  <script>
+    var car ={
+      brand: "porsche",
+      color: "grijs",
+      speed: 0,
+
+      speed: function() {
+          this.speed += 7
+          console.log(this.speed);
+      },
+
+      honk: function() {
+          console.log("AAAAAAAA")
+      }
+    }
+  console.log(car.brand);
+  car.speed();
+  car.speed();
+  car.speed();
+  car.speed();
+  car.speed();
+  car.speed();
+  car.speed();
+  car.honk();
+
+
+  </script>
+</html>
